@@ -9,10 +9,10 @@ router.get('/', (req, res) => {
   Category.findAll({
     attributes: [
       'id',
-      'category_name',
-      [sequelize.literal('(SELECT FROM )'), 'products']
-    ]
+      'category_name'
+    ],
     // be sure to include its associated Products
+    include: [Product]
   })
     .then(dbCategoryData => res.json(dbCategoryData))
     .catch(err => {
@@ -29,15 +29,10 @@ router.get('/:id', (req, res) => {
     },
     attributes: [
       'id',
-      'category_name',
-      [sequelize.literal('SELECT FROM )'), 'products']
+      'category_name'
     ],
     // be sure to include its associated Products
-    include: [
-      {
-        model: Product
-      }
-    ]
+    include: [Product]
   })
     .then(dbCategoryData => {
       if (!dbCategoryData) {

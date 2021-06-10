@@ -15,16 +15,7 @@ router.get('/', (req, res) => {
       'category_id'
     ],
     // be sure to include its associated Category and Tag data
-    include: [
-      {
-        model: Category,
-        attributes: ['id']
-      },
-      {
-        model: ProductTag,
-        attributes: []
-      }
-    ]
+    include: [Category, Tag]
   })
     .then(dbProductData => res.json(dbProductData))
     .catch(err => {
@@ -48,9 +39,7 @@ router.get('/:id', (req, res) => {
       'category_id'
     ],
     // be sure to include its associated Category and Tag data
-    include: [
-
-    ]
+    include: [Category, Tag]
   })
     .then(dbProductData => {
       if (!dbProductData) {
