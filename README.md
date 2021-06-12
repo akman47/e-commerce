@@ -1,4 +1,4 @@
-#E-Commerce
+# E-Commerce
 
 ## Description
 An application that connects the user to an e-commerce database to access product inventory data
@@ -16,22 +16,24 @@ As a manager at an internet retail company, I want a back end for my e-commerce 
 * Node.js
 
 ## Snapshot
-![Snapshot of the terminal prompts](./images/.png)
-![Snapshot of accessing the database](./images/.png)
+![Snapshot of the terminal prompts](./ecommerce-terminal.png)
+![Snapshot of accessing the database](./ecommerce-db.png)
 
 ## Screen Recording
-![Screen recording of how to use the application](./images/e-commerce-demo.gif)
-* [Walkthrough Link]()
+![Screen recording of how to use the application](./e-commerce-demo.gif)
+* [Walkthrough Link](https://drive.google.com/file/d/1jURWyviz52A6uZagbU9fP1peRhiTMU8g/view)
 
 ## Usage
 1. Clone e-commerce repository
 2. Run <code>npm install</code> to install dependencies
-3. Run <code>node server.js</code> to run the app
+3. Run <code>source db/schema.sql</code> in mySQL shell
+3. Run <code>npm run seed</code> to seed database
+4. Run <code>npm start</code> to start the app
 
 ## Packages
 * Express
 * mySQL2
-* sequelize
+* Sequelize
 
 ## Contribution
 Made By Angela Man
