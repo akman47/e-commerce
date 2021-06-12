@@ -20,8 +20,10 @@ As a manager at an internet retail company, I want a back end for my e-commerce 
 ![Snapshot of accessing the database](./ecommerce-db.png)
 
 ## Screen Recording
-![Screen recording of how to use the application](./ecommerce-demo.gif)
-* [Walkthrough Link](https://drive.google.com/file/d/1jURWyviz52A6uZagbU9fP1peRhiTMU8g/view)
+![Screen recording of creating and seeding the database through the terminal](./ecommerce-terminal-demo.gif)
+* [Walkthrough link for creating and seeding database](https://drive.google.com/file/d/1BTAXszY6ZTUneHjNBro6Rgou373RGUs-/view)
+![Screen recording of how to acess the database](./ecommerce-demo.gif)
+* [Walkthrough link to CRUD actions for database](https://drive.google.com/file/d/1jURWyviz52A6uZagbU9fP1peRhiTMU8g/view)
 
 ## Usage
 1. Clone e-commerce repository
