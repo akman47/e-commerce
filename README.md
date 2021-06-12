@@ -20,7 +20,7 @@ As a manager at an internet retail company, I want a back end for my e-commerce 
 ![Snapshot of accessing the database](./ecommerce-db.png)
 
 ## Screen Recording
-![Screen recording of how to use the application](./e-commerce-demo.gif)
+![Screen recording of how to use the application](./ecommerce-demo.gif)
 * [Walkthrough Link](https://drive.google.com/file/d/1jURWyviz52A6uZagbU9fP1peRhiTMU8g/view)
 
 ## Usage
